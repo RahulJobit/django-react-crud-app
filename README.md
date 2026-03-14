@@ -29,13 +29,7 @@ This project demonstrates modern **DevOps practices** including containerization
 
 ## 🏗 Project Architecture
 
-React UI
-   ↓
-REST API
-   ↓
-Django Backend
-   ↓
-Database
+React UI → REST API → Django Backend → Database
 
 
 docker compose up --build
