@@ -29,20 +29,13 @@ This project demonstrates modern **DevOps practices** including containerization
 
 ## 🏗 Project Architecture
 
-project-root
-│
-├── backend
-│ ├── api
-│ ├── Dockerfile
-│ └── requirements.txt
-│
-├── frontend
-│ ├── src
-│ ├── Dockerfile
-│ └── package.json
-│
-├── docker-compose.yml
-└── .github/workflows
+React UI
+   ↓
+REST API
+   ↓
+Django Backend
+   ↓
+Database
 
 
 docker compose up --build
